@@ -42,5 +42,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://localhost:8800/api"
+  "proxy": "http://localhost:8800/api",
+  "devDependencies": {
+    "netlify-cli": "^14.1.0"
+  }
 }
