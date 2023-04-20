@@ -27,7 +27,7 @@ jobs:
             - ./build
       - run:
           name: Deploy to Netlify
-          command: ./node_modules/.bin/netlify deploy --site 68175768-cb23-49d9-8e19-b15b99dd0734 --auth ZKUErSIUmY9gaTVgnLCqewYAsmyRyhs-TkfE9Wi9528 --prod --dir=build
+          command: ./node_modules/.bin/netlify deploy --site 7c4a896a-9881-4976-b434-f40f18bbf70b --auth ZKUErSIUmY9gaTVgnLCqewYAsmyRyhs-TkfE9Wi9528 --prod --dir=build
 workflows:
   version: 2
   build-deploy:
